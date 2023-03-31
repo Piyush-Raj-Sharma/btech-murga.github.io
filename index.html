@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" media="screen and (max-width: 945px)" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=Kalam&family=Kavoon&family=Signika+Negative&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <title>B.Tech Murga</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="image/logo.png" alt="B.Tech Murga">
+        </div>
+        <ul class="menu">
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="center">
+        <h1 class="h-main">Welcome to B.Tech Murga</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, culpa dolorem. Asperiores </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, </p>
+        <button class="btn">Order Now</button>
+    </section>
+    <hr>
+    <section id="services-container">
+        <h1 class="h-main center">Our Services</h1>
+         <div id="services">
+             <div class="box">
+                <img src="image/pizza.png" alt="Chicken Pizza">
+                <h2 class="h-secondary center">Chicken Pizza</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil assumenda magni, harum quod modi est deserunt possimus.
+                     Vel dolorum accusantium velit pariatur debitis unde nobis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptatibus aut sapiente, accusamus aliquam corrupti sed, aspernatur 
+                    sequi, ipsam optio cum! Laboriosam, iure? Ipsa, </p>
+             </div>
+             <div class="box">
+                <img src="image/Fried-chicken.png" alt="Gravy Chicken" id="gravy">
+                <h2 class="h-secondary center">Fried Chicken</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil assumenda magni, harum quod modi est deserunt possimus.
+                     Vel dolorum accusantium velit pariatur debitis unde nobis.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptatibus aut sapiente, accusamus aliquam corrupti sed, aspernatur 
+                     sequi, ipsam optio cum! Laboriosam, iure? Ipsa, </p>
+             </div>
+             <div class="box">
+                <img src="image/Nuggets.png" alt="Chicken Nuggets">
+                <h2 class="h-secondary center">Chicken Nuggets</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil assumenda magni, harum quod modi est deserunt possimus.
+                     Vel dolorum accusantium velit pariatur debitis unde nobis.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptatibus aut sapiente, accusamus aliquam corrupti sed, aspernatur 
+                     sequi, ipsam optio cum! Laboriosam, iure? Ipsa, </p>
+             </div>
+         </div>
+    </section>  
+    <hr>  
+    <section id="client-section">
+        <h1 class="h-main center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="image/png-apple-logo-9718.png" alt="Our Clients">
+            </div>
+            <div class="client-item">
+                <img src="image/google-logo-9831.png" alt="Our Clients">
+            </div>
+            <div class="client-item">
+                <img src="image/png-apple-logo-9718.png" alt="Our Clients">
+            </div>
+            <div class="client-item">
+                <img src="image/Tata_Consultancy_Services_Logo-ojncdsd.png" alt="Our Clients">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-main center" style="color: rgb(27, 25, 25);">Contact Us</h1>
+            <div class="contact-box">
+                <form action="">
+                    <div class="from-group">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="from-group">
+                        <label for="phone">Phone Number: </label>
+                        <input type="phone" name="phone" id="phone" placeholder="Enter Your Phone No. ">
+                    </div>
+                    <div class="from-group">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="from-group">
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" onclick="myFunction()"> Submit </button>
+                    </div>
+                </form>
+            </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.BTechMurga.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+<script>
+    function myFunction() {
+        alert("Thank You For Contacting!");
+    }
+</script>
+</html>

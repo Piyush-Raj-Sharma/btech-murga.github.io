@@ -1,0 +1,235 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar::before {
+    content: "";
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.logo {
+    margin: 5px 15px;
+}
+
+.logo img {
+    height: 80px;
+    width: 170px;
+    margin: -10px -10px;
+    filter: invert(100%);
+}
+
+.logo img:hover {
+    /* background-color: white; */
+    filter: invert(0%);
+    border-radius: 15px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 12px;
+    border-radius: 9px;
+    margin: -1px 15px;
+    color: white;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+}
+
+#home::before {
+    content: "";
+    background: url(image/pexels-pixabay-326333.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 534px;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+}
+.h-main{
+    font-size: 3rem;
+    color: white;
+}
+#services-container .h-main{
+    color: black;
+    /* padding: 15px 0px 0px;  */
+}
+#home h1{
+    text-shadow: black 2px 2px;
+    /* font-family: 'Kavoon', cursive; */
+    font-family: 'Kalam', cursive;
+
+
+}
+#home p{
+    font-size: 1.5rem;
+    color: white;
+    font-family:'Baloo Bhai 2', cursive;
+}
+.btn{
+    margin: 20px;
+    padding: 5px 25px;
+    
+    border: white solid 2px;
+    cursor: pointer;
+    background-color: rgb(250, 183, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    /* opacity: 0.9; */
+}
+.center{
+    text-align: center;
+}
+.h-secondary{
+    font-size: 1.8rem;
+    /* color: white; */
+}
+#services{
+    margin: 25px 25px;
+    display: flex;
+}
+#services-container .h-main{
+    font-size: 2.3rem;
+}
+#services .box{
+border: 2px solid rgb(255, 0, 0);
+margin: 5px;
+border-radius: 20px;
+padding: 20px 6px;
+background-color: #c9ab9b4f;
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+#services .box p{
+    padding: 10px 0px 15px 0px;
+}
+/* #services .box #Fried{
+    height: 150px;
+} */
+#client-section{
+      position: relative;
+}
+#client-section::before{
+    content: "";
+    background: url(image/pexels-valeria-boltneva-1510692.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .9;
+}
+#client-section h1{
+    font-family:'Baloo Bhai 2', cursive;;
+    color: rgb(214, 193, 74);
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients .client-item img{
+    height: 80px;
+}
+
+.client-item{
+    padding: 15px;
+}
+
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background: url(image/pexels-noah-erickson-404280.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.6;
+}
+#contact h1{
+    padding-top: 10px;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+.contact-box input,
+.contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 0.9rem;
+   
+}
+.contact-box form{
+    width: 35%;
+    font-family:'Baloo Bhai 2', cursive;
+} 
+.contact-box label{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.contact-box button{
+    display: flex;
+    padding: 6px 14px;
+    width: 80px;
+    margin: auto;
+    font-size: 15px;
+    font-family:'Baloo Bhai 2', cursive;
+    font-weight: bold;
+} 
+
+footer{
+    background: black;
+    padding: 9px 20px;
+    color: white;
+}
