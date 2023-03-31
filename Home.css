@@ -152,9 +152,9 @@ background-color: #c9ab9b4f;
 /* #services .box #Fried{
     height: 150px;
 } */
-/* #client-section{
+#client-section{
       position: relative;
-} */
+}
 #client-section::before{
     content: "";
     background: url(Image/pexels-valeria-boltneva-1510692.jpg);
@@ -181,9 +181,9 @@ background-color: #c9ab9b4f;
     padding: 15px;
 }
 
-/* #contact{
+#contact{
     position: relative;
-} */
+}
 #contact::before{
     content: "";
     position:absolute;
