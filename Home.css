@@ -79,7 +79,7 @@ html{
 
 #home::before {
     content: "";
-    background: url(/Image/pexels-pixabay-326333.JPG) no-repeat center center/cover;
+    background: url(/Image/pexels-pixabay-326333.jpg) no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -157,7 +157,7 @@ background-color: #c9ab9b4f;
 }
 #client-section::before{
     content: "";
-    background: url(/Image/pexels-valeria-boltneva-1510692.JPG);
+    background: url(/Image/pexels-valeria-boltneva-1510692.jpg);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -189,7 +189,7 @@ background-color: #c9ab9b4f;
     position:absolute;
     height: 100%;
     width: 100%;
-    background: url(/Image/pexels-noah-erickson-404280.JPG) no-repeat center center/cover;
+    background: url(/Image/pexels-noah-erickson-404280.jpg) no-repeat center center/cover;
     z-index: -1;
     opacity: 0.6;
 }
